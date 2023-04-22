@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+//Header
+
+.header-div {
+}
+
+.main-div1 {
+  background-color: white;
+}
+
+.div1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.logo {
+  color: #0058ff;
+  font-weight: 800;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note {
+  margin-right: 0.5rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.user {
+  height: 2.5rem;
+}
+
+.main-div2 {
+  background-color: #15294b;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 88rem;
+}
+
+.code {
+  color: #fff;
+  font-weight: 400;
+}
+
+.arrow {
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+
+.code-name {
+  color: #fff;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+//Body
+.body-container {
+  display: flex;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.homepage {
+  background-color: red;
+}

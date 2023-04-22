@@ -1,17 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
 import Header from './components/Header';
 import Homepage from './pages/Homepage';
 import Modules from './pages/Modules'
 import Instructors from './pages/Instructors';
-import Sidebar from './components/Sidebar';
+import Body from './components/Body';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Sidebar />
+        <Body />
         <Routes>
           <Route
             path="/"
